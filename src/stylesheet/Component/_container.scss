@@ -1,0 +1,8 @@
+@use "../Abstract/" as *;
+
+.container {
+  width: px-to-vw-desktop;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
