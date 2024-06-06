@@ -1,5 +1,5 @@
 {
-  "name": "practice-html-css-2",
+  "name": "practice_html_css",
   "version": "1.0.0",
   "description": "- This document introduces my project with time to do it, the target i want to get, the technical i have used, the link to view my website and source code of it and the final is the way to run my project on your local machine.",
   "main": "index.js",
@@ -9,12 +9,17 @@
     "lint": "eslint src",
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thuan734655/deploy_practice.git"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "ISC", 
+  "homepage": "https://github.com/thuan734655/deploy_practice",
   "devDependencies": {
     "eslint": "^8.52.0",
-    "husky": "^7.0.4",
+    "husky": "^7.0.0",
     "parcel-bundler": "^1.12.5",
     "posthtml-doctype": "^1.1.1",
     "posthtml-include": "^1.7.4",
@@ -22,6 +27,8 @@
   },
   "dependencies": {
     "@parcel/transformer-sass": "^2.10.0",
-    "posthtml": "^0.16.6"
+    "posthtml": "^0.16.6",
+    "posthtml-doctype": "^1.1.1",
+    "posthtml-include": "^1.7.4"
   }
 }
